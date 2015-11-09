@@ -14,6 +14,8 @@
 		910515131BEC683D006DF5BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910515111BEC683D006DF5BB /* LaunchScreen.storyboard */; };
 		9105151E1BEC683D006DF5BB /* Week3AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9105151D1BEC683D006DF5BB /* Week3AssignmentTests.swift */; };
 		910515291BEC683D006DF5BB /* Week3AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910515281BEC683D006DF5BB /* Week3AssignmentUITests.swift */; };
+		910515371BEC7A28006DF5BB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910515361BEC7A28006DF5BB /* FeedViewController.swift */; };
+		910ABAA21BF078B40037B6E4 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910ABAA11BF078B40037B6E4 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		910515241BEC683D006DF5BB /* Week3AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week3AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		910515281BEC683D006DF5BB /* Week3AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3AssignmentUITests.swift; sourceTree = "<group>"; };
 		9105152A1BEC683D006DF5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910515361BEC7A28006DF5BB /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		910ABAA11BF078B40037B6E4 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				910515081BEC683D006DF5BB /* AppDelegate.swift */,
 				9105150A1BEC683D006DF5BB /* ViewController.swift */,
 				9105150C1BEC683D006DF5BB /* Main.storyboard */,
+				910ABAA11BF078B40037B6E4 /* Common.swift */,
+				910515361BEC7A28006DF5BB /* FeedViewController.swift */,
 				9105150F1BEC683D006DF5BB /* Assets.xcassets */,
 				910515111BEC683D006DF5BB /* LaunchScreen.storyboard */,
 				910515141BEC683D006DF5BB /* Info.plist */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				910ABAA21BF078B40037B6E4 /* Common.swift in Sources */,
 				9105150B1BEC683D006DF5BB /* ViewController.swift in Sources */,
+				910515371BEC7A28006DF5BB /* FeedViewController.swift in Sources */,
 				910515091BEC683D006DF5BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +493,7 @@
 				9105152F1BEC683D006DF5BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		910515301BEC683D006DF5BB /* Build configuration list for PBXNativeTarget "Week3AssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +502,7 @@
 				910515321BEC683D006DF5BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		910515331BEC683D006DF5BB /* Build configuration list for PBXNativeTarget "Week3AssignmentUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +511,7 @@
 				910515351BEC683D006DF5BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
